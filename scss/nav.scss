@@ -1,0 +1,24 @@
+.nav {
+  background-color: $pepsi-blue;
+  // height: 75px;
+  display: flex;
+  &__logo {
+    background-image: url(../images/pepsi-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 75px;
+    height: 75px;
+    margin: 10px 50px 10px 50px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    a {
+      text-decoration: none;
+      color: $pepsi-white;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.drinks {
+  width: 100%;
+  margin: 0 auto;
+  //   background-color: red;
+  background-color: $pepsi-white;
+  &__heading {
+    text-align: center;
+    font-size: 70px;
+    color: $pepsi-blue;
+  }
+  &__ours {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    // background-color: yellow;
+    &__individual {
+      width: 22%;
+      height: 300px;
+      margin-bottom: 30px;
+      border: 1px $pepsi-blue solid;
+      &__name {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+        color: $pepsi-blue;
+      }
+      &__pic {
+        height: 200px;
+        background-image: url(../images/drinks/can-pepsi.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

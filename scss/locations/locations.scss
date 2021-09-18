@@ -1,0 +1,34 @@
+.locations {
+  background-color: white;
+  padding-top: 30px;
+  &__header {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+  &__stores {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+    &__individual {
+      width: 30%;
+      //   background-color: blue;\
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &__text {
+        font-size: 40px;
+      }
+      &__but {
+        background-color: $pepsi-blue;
+        color: $pepsi-white;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 40px;
+      }
+    }
+  }
+}

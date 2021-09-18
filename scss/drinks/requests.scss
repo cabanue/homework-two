@@ -1,0 +1,23 @@
+.requests {
+  width: 75%;
+  margin: 0 auto;
+  &__heading {
+    text-align: center;
+    font-size: 60px;
+    color: $pepsi-white;
+    margin-bottom: 40px;
+  }
+  &__form {
+    text-align: center;
+    margin-bottom: 30px;
+    label {
+      font-size: 30px;
+      color: $pepsi-white;
+      margin-right: 20px;
+    }
+    input {
+      width: 300px;
+      height: 30px;
+    }
+  }
+}

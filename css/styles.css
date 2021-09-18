@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #265cc5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.nav {
+  background-color: #0065c3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav__logo {
+  background-image: url(../images/pepsi-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  margin: 10px 50px 10px 50px;
+}
+.nav__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+}
+.nav__items a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 75px;
+  width: 100%;
+  background-color: #0065c3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__logo {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer__logo__image {
+  background-image: url(../images/footer-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+.footer__items {
+  width: 30%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__items__column p {
+  margin-bottom: 5px;
+}
+.footer__social-media {
+  width: 30%;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__social-media__button {
+  color: white;
+  background-color: #0065c3;
+  width: 100%;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 42px;
+  border-color: white;
+}
+.footer__social-media__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__social-media__icons img {
+  height: 40px;
+  width: 40px;
+}
+
+.home-hero {
+  width: 100%;
+  height: 500px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/home-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-hero__header {
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+.home-hero__text {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.featured {
+  width: 75%;
+  margin: 30px auto;
+  color: white;
+}
+.featured__heading {
+  text-align: center;
+  font-size: 40px;
+}
+.featured__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 100px 0px;
+}
+.featured__images__single {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 200px;
+}
+.featured__images__single--one {
+  background-image: url(../images/drinks/can-pepsi.png);
+}
+.featured__images__single--two {
+  background-image: url(../images/drinks/can-pepsi-mango.png);
+}
+.featured__images__single--three {
+  background-image: url(../images/drinks/can-pepsi-cherry-v2.png);
+}
+.featured__images__single--four {
+  background-image: url(../images/drinks/can-real-sugar-reg.png);
+}
+
+.about {
+  width: 75%;
+  margin: 40px auto;
+  color: white;
+}
+.about__hero {
+  background-image: url(../images/store-front.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+}
+.about__heading {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+.about__bio {
+  text-align: center;
+  font-size: 20px;
+}
+.about__bio p {
+  margin-bottom: 30px;
+}
+
+.drinks {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.drinks__heading {
+  text-align: center;
+  font-size: 70px;
+  color: #0065c3;
+}
+.drinks__ours {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 50px auto;
+}
+.drinks__ours__individual {
+  width: 22%;
+  height: 300px;
+  margin-bottom: 30px;
+  border: 1px #0065c3 solid;
+}
+.drinks__ours__individual__name {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #0065c3;
+}
+.drinks__ours__individual__pic {
+  height: 200px;
+  background-image: url(../images/drinks/can-pepsi.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.requests {
+  width: 75%;
+  margin: 0 auto;
+}
+.requests__heading {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 40px;
+}
+.requests__form {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.requests__form label {
+  font-size: 30px;
+  color: white;
+  margin-right: 20px;
+}
+.requests__form input {
+  width: 300px;
+  height: 30px;
+}
+
+.locations {
+  background-color: white;
+  padding-top: 30px;
+}
+.locations__header {
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+.locations__stores {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 60px;
+}
+.locations__stores__individual {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.locations__stores__individual__text {
+  font-size: 40px;
+}
+.locations__stores__individual__but {
+  background-color: #0065c3;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+.start {
+  width: 100%;
+  margin: 30px 0 50px 0;
+}
+.start__header {
+  text-align: center;
+  color: white;
+}
+.start__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.start__form input {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.start__form__but {
+  color: white;
+  border: 2px white solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 40px;
+}
